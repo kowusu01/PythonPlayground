@@ -1,0 +1,6 @@
+create environment:
+    conda env create -f environment.yml
+
+activate: 
+    conda activate play-env
+

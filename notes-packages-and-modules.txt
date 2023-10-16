@@ -1,0 +1,21 @@
+modules
+- module is a just a python file (.py)
+- module can define functions, classes and variables
+- the folder name is the module name
+- the folder that contains modules is called package
+- the folder should contain a file called __init__.py, it tells python that the folder is a package
+- the file can be empty but it can also contain execute initialization code for the package
+- see more info on package initialization here: https://docs.python.org/3/tutorial/modules.html#packages
+
+- consider the following folder structure:
+ - my_package
+   - __init__.py  - top level package initialization code
+   - my_module.py - top level module
+
+   - my_sub_package         - a sub package
+     - __init__.py          - initialization code for the sub package
+     - my_sub_module.py     - a module in the sub package
+
+     - to simply the importing the sub modules, we can use sys package to add the sub package to the search path
+        - sys.path.append('path/to/my_package/my_sub_package')
+        - now we can import the sub module as: import my_sub_module

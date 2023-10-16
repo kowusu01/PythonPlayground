@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./my-packages/Greetings",
+        "./my-packages/HadoopSamples"
+    ]
+}

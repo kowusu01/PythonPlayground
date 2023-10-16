@@ -1,0 +1,23 @@
+name: play-env
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - pip:
+      # Core Data
+      - numpy==1.26
+      - pandas==2.1.1
+
+      # hadoop
+      - pathlib==1.0.1
+      - mrjob==0.7.4
+      #- PyYAML 6.0.1
+
+
+      # Visualization
+      #- matplotlib==3.8.0
+      #- plotnine==0.7.1
+      #- mizani==0.7.2
+      #- plotly==4.14.3
