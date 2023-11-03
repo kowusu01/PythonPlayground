@@ -1,5 +1,6 @@
 executing apps
 
+1. run hadoop job without a cluster
 - to run the hadoop job, we need to execute the following command:
   python test-hadoop.py data/movie-ratings.data
   
