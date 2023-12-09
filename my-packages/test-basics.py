@@ -48,3 +48,11 @@ print ("".join(items))
 nums = [1,2,3,4,5,6,7,8,9,10]
 my_generator = ( i*i for i in nums)
 print (list(my_generator))
+
+
+# split list into separate lists
+myList= [1,2,3,4,5,6,7,8,9,10]
+n = 3
+firstK, lastN = myList[:n], myList[n:]
+print(firstK, lastN)
+
